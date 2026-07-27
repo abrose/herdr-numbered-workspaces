@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Publishes each space's ordinal as a `num` metadata token, which
 # ui.sidebar.spaces renders via the "$num" row token. herdr reports the ordinal
 # over the API but has no built-in row token for it, so this is the bridge.
